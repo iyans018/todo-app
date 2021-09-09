@@ -1,0 +1,23 @@
+.resetforgot {
+  height: calc(100vh - 84px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: -100px; */
+  width: 100%;
+}
+
+.resetforgot .center {
+  background-color: #ad2829;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.resetforgot .row {
+  display: flex;
+}
+
+@media screen and (max-width: 550px) {}

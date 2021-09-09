@@ -1,0 +1,15 @@
+section {
+  padding-left: 10px;
+}
+
+#name {
+  padding-left: 8px;
+  width: 95%;
+}
+
+#desc {
+  padding-left: 8px;
+  overflow: auto;
+  height: 75px;
+  width: 95%;
+}

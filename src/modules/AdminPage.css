@@ -1,0 +1,70 @@
+.admin .text-center {
+  background-color: grey;
+  color: white;
+  height: 40vh;
+  width: 100%;
+  font-size: 30px;
+  border-spacing: 10px 20px;
+}
+
+.admin span {
+  background-color: white;
+  border-radius: 50%;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.admin h3 {
+  margin: 30px 0;
+}
+
+.admin #user-plus {
+  position: absolute;
+  margin: -50px 0 0 1225px;
+}
+
+.admin button {
+  margin: -50px 0 0 1225px;
+  width: 25px;
+}
+
+.admin #pic-profile {
+  background-color: grey;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+}
+
+.admin #user-profile {
+  padding-left: 2rem;
+}
+
+.admin #pencil {
+  margin-right: -1.7rem;
+}
+
+.admin .button {
+  margin-left: 1100px;
+}
+
+@media screen and (max-width: 768px) {
+  .admin #pencil {
+    margin-right: -1.3rem;
+  }
+
+  .admin .button {
+    margin-left: 250px;
+  }
+
+  .admin #space-card {
+    display: none;
+  }
+
+  .admin #user-plus {
+    margin: -50px 0 0 400px;
+  }
+
+  .user-items {
+    margin-top: 30px !important;
+  }
+}

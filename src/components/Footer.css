@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  background-color: #d63031;
+  height: 84px;
+  align-items: center;
+}
+
+.footer span {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer-todo {
+  font-weight: bolder;
+}
