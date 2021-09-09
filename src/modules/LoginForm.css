@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -29,9 +29,8 @@
 .login.container-local {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: calc(100vh - 84px);
   /* background-color: #ecf0f1; */
 }
 
@@ -61,14 +60,17 @@
 .login .wrapping {
   display: flex;
   flex-direction: row;
-  box-shadow: 5px 5px 40px -15px rgba(0,0,0,0.8);
-  -webkit-box-shadow: 5px 5px 40px -15px rgba(0,0,0,0.8);
-  -moz-box-shadow: 5px 5px 40px -15px rgba(0,0,0,0.8);
+  box-shadow: 5px 5px 40px -15px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 5px 5px 40px -15px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 5px 5px 40px -15px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  height: fit-content;
+  margin-top: 200px;
 }
 
 .login .form {
-  padding: 20px;
-  width: 400px;
+  padding: 36px;
+  width: 500px;
   background-color: #ffffff;
   border-radius: 15px;
 }
@@ -83,7 +85,7 @@
 .login .information {
   display: flex;
   padding: 20px;
-  width: 400px;
+  width: 500px;
   background-color: #d63031;
   border-radius: 15px;
   justify-content: center;
@@ -93,10 +95,28 @@
   width: 300px;
 }
 
-@media only screen and (max-width: 768px) {
+.login .form-subtext,
+.login .form-subtext a {
+  color: black;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 992px) {
+  .login {
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+
+  .login .wrapping {
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+  }
+
   .login .information {
-    position: absolute;
-    display: block;
-    visibility: hidden;
+    display: none;
+  }
+
+  .login .form {
+    width: auto;
   }
 }

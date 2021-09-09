@@ -34,7 +34,14 @@ function AdminPage() {
   ]);
 
   return (
-    <div className="container" style={{ marginTop: "150px" }}>
+    <div
+      className="container dashboard"
+      style={{
+        marginTop: "150px",
+        minHeight: "calc(100vh - 84px - 150px)",
+        marginBottom: "80px",
+      }}
+    >
       <div className="user-header d-flex justify-content-between align-items-center">
         <h4 className="mb-0">Users List</h4>
       </div>

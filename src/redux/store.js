@@ -24,7 +24,10 @@ const persistedReducers = persistReducer(persistConfig, reducers);
 const store = createStore(
   persistedReducers,
   initialState,
-  applyMiddleware(...middleware)
+  compose(
+    applyMiddleware(...middleware),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
 );
 
 const persistor = persistStore(store);

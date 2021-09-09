@@ -58,7 +58,7 @@ function ForgotForm() {
                 placeholder="Email"
                 onChange={handleChangeEmail}
               ></Control>
-              <Text className="text-white">{emailError}</Text>
+              <Text>{emailError}</Text>
             </FormGroup>
             <div className="mt-3 mb-1">
               <Button type="submit" variant="danger" className="w-100">

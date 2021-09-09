@@ -99,7 +99,7 @@ export default function UserDashboard() {
 
   return (
     <div
-      className="container"
+      className="container dashboard"
       style={{
         marginTop: "150px",
         marginBottom: "80px",
